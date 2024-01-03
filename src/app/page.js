@@ -1,8 +1,16 @@
-import Image from 'next/image'
+import Banner from '@/components/ui/Banner/Banner'
+import Header from '@/components/ui/Header'
+
 
 export default function Home() {
   return (
 
-    <div>Home</div>
+    <div className='h-screen'>
+
+      <Header></Header>
+      <Banner></Banner>
+
+
+    </div>
   )
 }
